@@ -1,0 +1,40 @@
+main {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.hero {
+    background-color: #45a8dd;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 90vh;
+    color: #496981;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 5px;
+    z-index: -2;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin: -20px 0 20px;
+    color: #4b4a53;
+}
+
+.hero p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #4b4a53;
+}
